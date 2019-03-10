@@ -2,7 +2,7 @@ package test;
 
 import org.junit.Test;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
-import org.westos.service.TestService;
+import com.jcx.service.TestService;
 
 public class TestProxy {
 

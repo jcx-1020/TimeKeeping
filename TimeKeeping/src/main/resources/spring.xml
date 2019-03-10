@@ -15,11 +15,11 @@
 
 
 
-    <bean id="TestService" class="org.westos.service.TestServiceTarget">
+    <bean id="TestService" class="com.jcx.service.TestServiceTarget">
 
     </bean>
 
-    <bean id="transactionAdvice" class="org.westos.advice.TrancationAdvice">
+    <bean id="transactionAdvice" class="com.jcx.advice.TrancationAdvice">
 
     </bean>
 

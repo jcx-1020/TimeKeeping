@@ -1,4 +1,4 @@
-package org.westos.advice;
+package com.jcx.advice;
 
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.After;
@@ -23,7 +23,7 @@ public class TrancationAdvice {
         System.out.println(end - start);
     }
 
-    @Around("within(org.westos.service.TestServiceTarget)")
+    @Around("within(com.jcx.service.TestServiceTarget)")
     public Object transaction(ProceedingJoinPoint pjp) {
         System.out.println("事务开始");
         Object obj= null;

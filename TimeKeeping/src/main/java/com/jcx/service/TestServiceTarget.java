@@ -1,4 +1,4 @@
-package org.westos.service;
+package com.jcx.service;
 
 import org.springframework.transaction.annotation.Transactional;
 
